@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+*{
+
+  font-family: "manrope", sans-serif;
+}
+
+span{
+  color: hsl(0, 0%, 52%);
+}
+
