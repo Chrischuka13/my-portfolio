@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 const Links = () => {
     const app = [
-        {image: "/images/auth_l.png", name: "User Auth App", desc: "A user authentication and verification app designed basically for security first purposes", link: "https://user-authentication-app-phi.vercel.app/"},
-        {image: "/images/dz_l.png", name: "Dessertz", desc: "Your home for various kinds of dessert after meal you can order  ", link: "https://dessert-cart-two.vercel.app/"},
-        {image: "/images/hr_l.png", name: "Hillcrest Realty", desc: "Your clear guidance for buying and selling homes.", link: "https://hillcrest-xgu2.vercel.app/"},
-        {image: "/images/c_l.png", name: "Corebuild", desc: "Designed to elevate how firms showcase their work, communicate their values, and build trust with clients.", link: "https://corebuild-x.vercel.app/"},
-        {image: "/images/mg_l.png", name: "Manage", desc: "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.", link: "https://manage-landing-page-weld-nine.vercel.app/"},
+        {image: "/images/auth_l.png", name: "User Auth App", desc: "A user authentication and verification app designed basically for security first purposes", link: "https://user-authentication-app-phi.vercel.app"},
+        {image: "/images/dz_l.png", name: "Dessertz", desc: "Your home for various kinds of dessert after meal you can order  ", link: "https://dessert-cart-two.vercel.app"},
+        {image: "/images/hr_l.png", name: "Hillcrest Realty", desc: "Your clear guidance for buying and selling homes.", link: "https://hillcrest-xgu2.vercel.app"},
+        {image: "/images/c_l.png", name: "Corebuild", desc: "Designed to elevate how firms showcase their work, communicate their values, and build trust with clients.", link: "https://corebuild-x.vercel.app"},
+        {image: "/images/mg_l.png", name: "Manage", desc: "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.", link: "https://manage-landing-page-weld-nine.vercel.app"},
         {image: "/images/cb_l.png", name: "CoBuilders", desc: "Professional Cleaning Services for Homes, Businesses, and Government Facilities Nationwide", link: "https://cobuilders-fe.vercel.app"}
     ]
 
