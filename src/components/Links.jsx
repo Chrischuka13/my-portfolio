@@ -8,7 +8,9 @@ const Links = () => {
         {image: "/images/hr_l.png", name: "Hillcrest Realty", desc: "Your clear guidance for buying and selling homes.", link: "https://hillcrest-xgu2.vercel.app"},
         {image: "/images/c_l.png", name: "Corebuild", desc: "Designed to elevate how firms showcase their work, communicate their values, and build trust with clients.", link: "https://corebuild-x.vercel.app"},
         {image: "/images/mg_l.png", name: "Manage", desc: "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.", link: "https://manage-landing-page-weld-nine.vercel.app"},
-        {image: "/images/cb_l.png", name: "CoBuilders", desc: "Professional Cleaning Services for Homes, Businesses, and Government Facilities Nationwide", link: "https://cobuilders-fe.vercel.app"}
+        {image: "/images/cb_l.png", name: "CoBuilders", desc: "Professional Cleaning Services for Homes, Businesses, and Government Facilities Nationwide", link: "https://cobuilders-fe.vercel.app"},
+        {image: "/images/miles.png", name: "Miles-Car Rental", desc: "A modern car renting app,  focused on making vehicle discovery and booking feel simple, intuitive, and seamless.", link: "https://milescar-rental.vercel.app"},
+        {image: "/images/reborn logo1.png", name: "Reborn Classics", desc: "An E-Commerce clothing brand website create to help customers shop withoit hassle .", link: "https://rebornclassics.vercel.app/"}
     ]
 
   return (
@@ -23,10 +25,7 @@ const Links = () => {
                     <img src={webapp.image} alt="" className='w-12 rounded-4xl mb-2'/>
                     <p className='text-2xl font-semibold mb-2'>{webapp.name}</p>
                     <p className='text-neutral-500 mb-4'>{webapp.desc}</p>
-                    <a href={`${webapp.link}`} target="_blank" className='opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-600'><p className="text-neutral-600 font-medium inline-flex items-center gap-2">View Project →</p></a>
-
-                    
-                    
+                    <a href={`${webapp.link}`} target="_blank" className='md:opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-600'><p className="text-neutral-600 font-medium inline-flex items-center gap-2">View Project →</p></a>
                 </div>
             ))}
             </div>

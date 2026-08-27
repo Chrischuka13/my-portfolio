@@ -8,7 +8,7 @@ const Footer = () => {
                 <p className='text-4xl mb-8 text-neutral-500 font-semibold'>My work experience</p>
                 <div className='md:grid grid-cols-2 text-[14px] md:text-[18px] text-neutral-500'>
                     <div className=''>
-                        <p>August 2025 - Present</p>
+                        <p>August 2025 - May 2026</p>
                     </div>
                     <div className='flex justify-between text-neutral-800 font-medium mb-6'>
                         <div className='flex justify-center items-center'>
@@ -21,24 +21,11 @@ const Footer = () => {
                     </div>
 
                     <div className=''>
-                        <p>January 2025 - May 2025</p>
+                        <p>July 2023 - June 2026</p>
                     </div>
                     <div className='flex justify-between text-neutral-800 font-medium mb-6'>
                         <div className='flex justify-center items-center'>
-                            <p>Software Developer at</p>
-                        </div>
-                        <div className='flex justify-center items-center gap-2'>
-                            <img src="/images/scalebyrenda.png" alt="" className='w-7 bg-blue-900 '/>
-                            <p>Scale by Renda/Renda Africa</p>
-                        </div>
-                    </div>
-
-                    <div className=''>
-                        <p>July 2023 - May 2025</p>
-                    </div>
-                    <div className='flex justify-between text-neutral-800 font-medium mb-6'>
-                        <div className='flex justify-center items-center'>
-                            <p>Brand / Product Designer at</p>
+                            <p>Graphic / Product Designer at</p>
                         </div>
                         <div className='flex justify-center items-center gap-2'>
                             <img src="/images/rendaA.png" alt="" className='w-7'/>
@@ -51,7 +38,7 @@ const Footer = () => {
                     </div>
                     <div className='flex justify-between text-neutral-800 font-medium mb-6'>
                         <div className='flex justify-center items-center'>
-                            <p>Graphic / Motion Designer at</p>
+                            <p>Graphic Designer at</p>
                         </div>
                         <div className='flex justify-center items-center gap-2'>
                             <img src="/images/jumia.png" alt="" className='w-7 '/>
@@ -59,18 +46,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className=''>
-                        <p>2000 - PRESENT</p>
-                    </div>
-                    <div className='flex justify-between text-neutral-800 font-medium'>
-                        <div className='flex justify-center items-center'>
-                            <p>Artist / Sketcher at</p>
-                        </div>
-                        <div className='flex justify-center items-center gap-2'>
-                            <img src="/images/rebornL.png" alt="" className='w-7 '/>
-                            <p>REBORN</p>
-                        </div>
-                    </div>
                 </div>
             </div>
 
